@@ -39,3 +39,15 @@ span,
 p {
   color: var(--text-color);
 }
+
+@media (min-width: 540px) {
+  :root {
+    background-image: url("./assets/desktopCurves.svg");
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    background-image: url("./assets/desktopCurves-2.svg");
+  }
+}
